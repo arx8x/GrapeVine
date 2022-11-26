@@ -1,194 +1,159 @@
 {
   "name": "GrapeVine",
   "semanticHighlighting": true,
-  "ssemanticTokenColors": {
-        "magicFunction": "#68d7df",
-        "selfParameter": "#82e2ff",
-        "parameter": "#de8cff",
-        "function.builtin": "#57bfd1"
+  "semanticTokenColors": {
+      "magicFunction": "#68d7df",
+      "selfParameter": "#a33cf7",
+      "parameter": {
+        "fontStyle": "italic",
+        "foreground": "#de8cff"
+      },
+      "function.builtin": "#ff93f6",
+      "class.builtin": "#8beeff",
+      "module": "#c25ecb"
   },
-  "stokenColors": [
+  "tokenColors": [
     {
+      "name": "[VSCODE-CUSTOM] JSON Property Name",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#FF52A3"
+        "foreground": "#ff52a3"
       }
     },
     {
+      "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
       "scope": "support.type.property-name.json punctuation",
       "settings": {
-        "foreground": "#FF52A3"
+        "foreground": "#ff52a3"
       }
     },
     {
       "scope": "source.python meta.class.python entity.name.type.class.python",
       "settings": {
-        "foreground": "#FFF01B",
+        "foreground": "#fff01b",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#9D60FF",
+        "foreground": "#9d60ff",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "meta.class.inheritance.python",
       "settings": {
-        "foreground": "#D4C922",
+        "foreground": "#d4c922",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "source",
       "settings": {
-        "foreground": "#F3E6FF",
+        "foreground": "#CD91FF"
+      }
+    },
+    {
+      "scope": "keyword.control.flow",
+      "settings": {
+        "foreground": "#9658DF",
         "fontStyle": "bold"
       }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#7a7a7a"
+      }
+    },
+    {
+      "scope": "keyword.control.import",
+      "settings": {
+        "foreground": "#c560ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#b397ff"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.bin",
+        "constant.numeric.hex"
+      ],
+      "settings": {
+        "foreground": "#f19946"
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#e75ea2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.function.parameters",
+      "settings": {
+        "foreground": "#de8cff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "punctuation.separator",
+      "settings": {
+        "foreground": "#ffb8dc"
+      }
+    },
+    {
+      "scope": [
+        "meta.attribute.python",
+        "meta.member.access.python"
+      ],
+      "settings": {
+        "foreground": "#EC3FE9"      
+      }
+    },
+    {
+      "scope": "support.type.exception",
+      "settings": {
+        "foreground": "#FFA5DB",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.python",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#FF9D63"
+      }
+    },
+    {
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "#C25ECB"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite",
+        "variable",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#eeeeee"      }
     },
     {
       "scope": "string",
       "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#96DF66",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": "token.info-token",
-      "settings": {
-        "foreground": "#6796E6"
-      }
-    },
-    {
-      "scope": "token.warn-token",
-      "settings": {
-        "foreground": "#CD9731"
-      }
-    },
-    {
-      "scope": "token.error-token",
-      "settings": {
-        "foreground": "#F44747"
-      }
-    },
-    {
-      "scope": "token.debug-token",
-      "settings": {
-        "foreground": "#B267E6"
+        "foreground": "#96df66"
       }
     }
   ],
