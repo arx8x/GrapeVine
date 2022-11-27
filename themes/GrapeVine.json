@@ -179,8 +179,7 @@
     },
     {
       "scope": "meta.indexed-name",
-      "settings": {
-      }
+      "settings": {}
     },
     {
       "scope": "meta.item-access.arguments",
@@ -253,6 +252,35 @@
       "scope": "string",
       "settings": {
         "foreground": "#b5e435"
+      }
+    },
+    {
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#eb41a4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "punctuation.separator.key-value.mapping.yaml",
+      "settings": {
+        "foreground": "#d1b2f3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string.unquoted.plain.out.yaml",
+      "settings": {
+        "foreground": "#aed052"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml"
+      ],
+      "settings": {
+        "foreground": "#cae435"
       }
     }
   ],
