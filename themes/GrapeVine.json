@@ -1,7 +1,20 @@
 {
   "name": "GrapeVine",
-  "semanticHighlighting": false,
-  "semanticTokenColors": {},
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "rules": {
+      "magicFunction": "#ef87ff",
+      "selfParameter": "#42ba3a",
+      "function.builtin": "#ff00f2",
+      "module": "#c25ecb",
+      "class": "#e478b9",
+      "class.defaultLibrary": "#d759a5",
+      "*.decorator": {
+        "fontStyle": "italic",
+        "foreground": "#df7fff"
+      }
+    }
+  },
   "tokenColors": [
     {
       "name": "[VSCODE-CUSTOM] JSON Property Name",
@@ -40,7 +53,7 @@
     {
       "scope": "source",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#f1e0fd"
       }
     },
     {
@@ -53,7 +66,8 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#7a7a7a"
+        "foreground": "#535353",
+        "fontStyle": "italic"
       }
     },
     {
@@ -71,13 +85,13 @@
         "constant.numeric.hex"
       ],
       "settings": {
-        "foreground": "#f19946"
+        "foreground": "#fea959"
       }
     },
     {
       "scope": "meta.function-call.arguments",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ff0000"
       }
     },
     {
@@ -86,7 +100,7 @@
         "punctuation.separator"
       ],
       "settings": {
-        "foreground": "#ff76ba",
+        "foreground": "#ff00bf",
         "fontStyle": "bold"
       }
     },
@@ -117,9 +131,13 @@
       }
     },
     {
-      "scope": "variable.parameter.function",
+      "scope": [
+        "variable.parameter.function",
+        "variable.parameter.function-call",
+        "meta.function-call.arguments"
+      ],
       "settings": {
-        "foreground": "#ff3f88",
+        "foreground": "#ab95da",
         "fontStyle": "italic"
       }
     },
@@ -173,9 +191,16 @@
       }
     },
     {
-      "scope": "string",
+      "scope": "punctuation.definition.decorator",
       "settings": {
-        "foreground": "#96df66"
+        "foreground": "#df7fff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string.interpolated.python storage",
+      "settings": {
+        "foreground": "#75c241"
       }
     },
     {
@@ -223,19 +248,13 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#96df66"
+        "foreground": "#81e93c"
       }
     },
     {
       "scope": "string",
       "settings": {
-        "foreground": "#96df66"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#aee56f"
+        "foreground": "#b5e435"
       }
     }
   ],
