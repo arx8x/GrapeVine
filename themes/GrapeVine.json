@@ -91,7 +91,7 @@
     {
       "scope": "meta.function-call.arguments",
       "settings": {
-        "foreground": "#ff0000"
+        "fontStyle": "italic"
       }
     },
     {
@@ -133,8 +133,7 @@
     {
       "scope": [
         "variable.parameter.function",
-        "variable.parameter.function-call",
-        "meta.function-call.arguments"
+        "variable.parameter.function-call"
       ],
       "settings": {
         "foreground": "#ab95da",
@@ -181,7 +180,6 @@
     {
       "scope": "meta.indexed-name",
       "settings": {
-        "foreground": "#ffbadf"
       }
     },
     {
