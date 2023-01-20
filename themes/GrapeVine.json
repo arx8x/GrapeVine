@@ -71,6 +71,13 @@
       }
     },
     {
+      "scope": "punctuation.definition.comment",
+      "settings": {
+        "foreground": "#767676",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "keyword.control.import",
       "settings": {
         "foreground": "#c560ff",
@@ -195,9 +202,17 @@
       }
     },
     {
+      "name": "Python f-string 'f' prefix",
       "scope": "string.interpolated.python storage",
       "settings": {
         "foreground": "#75c241"
+      }
+    },
+    {
+      "scope": "keyword.codetag.notation",
+      "settings": {
+        "foreground": "#db93ff",
+        "fontStyle": ""
       }
     },
     {
@@ -271,7 +286,7 @@
     {
       "scope": "string.unquoted.plain.out.yaml",
       "settings": {
-        "foreground": "#aed052"
+        "foreground": "#8fd052"
       }
     },
     {
@@ -280,7 +295,7 @@
         "string.quoted.double.yaml"
       ],
       "settings": {
-        "foreground": "#cae435"
+        "foreground": "#84e435"
       }
     },
     {
