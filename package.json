@@ -2,7 +2,7 @@
   "name": "grapevine",
   "displayName": "GrapeVine",
   "description": "Purple and green color theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.73.0"
   },
