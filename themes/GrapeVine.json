@@ -282,6 +282,24 @@
       "settings": {
         "foreground": "#cae435"
       }
+    },
+    {
+      "scope": [
+        "entity.name.section.group-title.ini"
+      ],
+      "settings": {
+        "foreground": "#00a6ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source.ini keyword.other.definition.ini"
+      ],
+      "settings": {
+        "foreground": "#EB41A4",
+        "fontStyle": "bold"
+      }
     }
   ],
   "colors": {
